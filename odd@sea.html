@@ -190,7 +190,7 @@
       _resetActions: function(actions) {
         // update footer title and author
         var title_ = actions.global.title === undefined ? '' : actions.global.title,
-            author_ = actions.global.author === undefined ? 'Using' : 'By '+actions.global.author+' using';
+            author_ = actions.global.author === undefined ? '' : 'By '+actions.global.author+'';
 
         document.getElementById('title').innerHTML = title_;
         document.getElementById('author').innerHTML = author_;
@@ -253,7 +253,7 @@
 ```
 ```
 -title: "Tammy's Odd@Sea"
--author: "  "
+-author: "TSS using CartoDB &amp; "
 ```
 
 #Waves in MIA
@@ -291,7 +291,7 @@ L.marker([42.3768, -71.2079]).actions.addRemove(S.map)
 L.marker([37.8629, -122.4124]).actions.addRemove(S.map)
 ```
 
-Home for some of us is not where we're born. It's the place that inexplicably tugs hardest at the heart when we're away. 
+Home for some of us is not where we're born. It's the place that inexplicably tugs hardest at our heart when we're away. 
 
 That's what the S.F. Bay Area is for me. 
 ![GGate](https://raw.githubusercontent.com/tssanders/tssanders.github.io/master/img/tssggate.jpeg)
