@@ -1,0 +1,400 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap3/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/get-shit-done.css" rel="stylesheet" />  
+    <link href="assets/css/demo.css" rel="stylesheet" /> 
+
+    <!--     Font Awesome     -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+    <link href="assets/css/rotating-card.css" rel="stylesheet" />
+    <link href='assets/css/fullcalendar.css' rel='stylesheet' />
+    <link href='assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />    
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src='jquery/jquery-ui.custom.min.js'></script>
+        <script src='assets/js/moment.min.js'></script>
+        <script src='assets/js/fullcalendar.js'></script>
+        <script src='assets/js/gcal.js'></script>
+<!--Calendar-->
+<script>
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        events: 'http://www.google.com/calendar/feeds/startupinstitute.com_dkmbh3oopre4guavi8p8pfofag%40group.calendar.google.com/public/basic'
+    });
+});
+
+</script>
+</head>
+
+<body>
+ <div id="navbar-full">
+    <div id="navbar">
+    <!--    
+        navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
+        -->
+        <nav class="navbar navbar-ct-red navbar-transparent navbar-fixed-top" role="navigation">
+         <!--
+          <div class="alert alert-success hidden">
+            <div class="container">
+                <b>Lorem ipsum</b> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </div>
+          </div>-->
+          
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Boston StartUp Club <span class="label label-danger">beta</span></a>
+
+              
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+               
+                <li class="active"><a href="#team">Team</a></li>
+                 <!--
+                <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                      </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+               <form class="navbar-form navbar-left navbar-search-form" role="search">                  
+                 <div class="form-group">
+                      <input type="text" value="" class="form-control" placeholder="Search...">
+                 </div> 
+              </form>
+            
+              <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Register</a></li>
+                    
+                    <li><button href="#" class="btn btn-round btn-default">Sign in</button></li>
+               </ul>-->
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+     <div class="blurred-container">
+            <div class="img-src" style="background-image: url('assets/img/bg.jpg')"></div>
+
+            <div class="img-src blur" style="opacity: 0; background-image: url('assets/img/bg-blur.jpg');"></div>  
+            
+            <a href="#quotez">
+            <img class="logo slideDown" src="images/group5.png" alt="logo" /></a>
+
+             
+   
+
+        </div>
+    </div><!--  end navbar -->
+
+</div> <!-- end menu-dropdown -->
+<section id="quotez">
+<div class="main">
+    <div class="container tim-container" style="max-width:657px;">
+        <div class="zim-container" style="max-width:690px;">
+            
+            <h1 class="text-center headline">&mdash; Students &mdash;<br> in classrooms are safe, <br> &middot; but &middot;<br>that's not what we were<br><small class="subtitle">&mdash; made for &mdash;<br>...</small></h1>
+            
+        </div>
+    </div>  
+</div><!-- end main -->         
+</section>
+
+<!-- end container -->
+<section id="team">    
+ <div class="container">
+    <div class="row">
+        <h1 class="title">
+            This is our Awesome Team!
+            <br>
+            <small>#MarshmellowStacks</small>
+        </h1>
+        <div class="col-sm-10 col-sm-offset-1"> 
+         
+         <div class="col-md-3 col-sm-6">
+             <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb4.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="images/darren-headshot.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Darren Tseng</h3>
+                                <p class="profession">Product &amp; Design</p>
+                          
+                        
+                            </div>
+
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-code"></i>
+                                    <i class="fa fa-pencil"></i>
+                                    <i class="fa fa-pied-piper"></i>
+                                    <i class="fa fa-camera"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                       <div class="header">
+                            <h5 class="motto"><br>"Ideation takes inspiration, reality requires execution."</h5>
+                        </div> 
+                        <div class="content">
+                            <div class="main">
+                               
+                                <h4 class="text-center">140 Characters Or Less</h4>
+                                <p>I'm the "Swiss Army Knife" of startups, with an eye for design and a mind for data.</p>
+                               <a href="http://darrentseng.com" class="btn btn-block btn-primary portfolio-btn" target="_blank"><i class="fa fa-eye"> Portfolio</i></a>
+
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="https://plus.google.com/u/0/+DarrenTseng1" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                <a href="http://linkedin.com/in/darrentseng" class="google"><i class="fa fa-linkedin fa-fw"></i></a>
+                                <a href="http://twitter.com/dtseng123" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                <a href="https://github.com/dtseng123" class="github"><i class="fa fa-github fa-fw"></i></a>
+
+
+                                
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+             <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb2.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle " src="images/mara-headshot.png"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Mara Renz Smith</h3>
+                                <p class="profession">Product &amp; Design</p>
+                                 
+                            </div>
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-camera"></i>
+                                    <i class="fa fa-pencil"></i>
+                                    <i class="fa fa-bolt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto"><br>"From grey matter to dentrites, fade to pixels from palettes."</h5>
+                        </div> 
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">140 Characters Or Less</h4>
+                                <p>The neurochemistry of users is an inspiration to my design choices</p>
+                                <a href="http://mararenzsmith.com" class="btn btn-block btn-success portfolio-btn" target="_blank"><i class="fa fa-eye"> Portfolio</i></a>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="https://www.facebook.com/mararenzs" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="www.linkedin.com/in/mararenzsmith" class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                <a href="https://twitter.com/mararenzsmith" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div>
+
+    
+        <div class="col-md-3 col-sm-6">
+            <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb3.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="images/christine-headshot.png"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Christine Zimmermann</h3>
+                                <p class="profession">Technical Marketing</p>
+                               
+                            </div>
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <i class="fa fa-tree"></i>
+                                    <i class="fa fa-female"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto"><br>"Brevity is the soul of wit, but verbosity includes details."</h5>
+                        </div> 
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">140 Characters Or Less</h4>
+                                <p>I love to frame information in powerful and meaningful ways.</p>
+                                 <button href="#" class="btn btn-block btn-warning portfolio-btn"><i class="fa fa-eye"> Portfolio</i></button>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="https://www.facebook.com/chris.m.zimmermann" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="http://www.linkedin.com/in/christinezim" class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                <a href="https://twitter.com/zimmerbugg" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div> <!-- end col-sm-3 -->
+       
+          <div class="col-md-3 col-sm-6">
+             <div class="card-container">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle " src="images/rondeau-headshot.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Daniel Rondeau</h3>
+                                <p class="profession">Web Development</p>                        
+                                
+                            </div>
+                            <div class="footer">
+                                <div class="rating">
+                                    <i class="fa fa-code"></i>
+                                    <i class="fa fa-pencil"></i>
+                                    <i class="fa fa-bolt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto"><br>"Bluetooth controlled wheelchair! Why not?"</h5>
+                        </div> 
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">140 Characters Or Less</h4>
+                                <p>Scripts are recipes and I am a culinary master.</p>
+                                <button href="#" class="btn btn-block btn-danger portfolio-btn"><i class="fa fa-eye"> Portfolio</i></button>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <div class="social-links text-center">
+                                <a href="http://facebook.com/dan.rondeau.562" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                <a href="http://www.linkedin.com/in/danielrondeau" class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
+                                <a href="http://github.com" class="github"><i class="fa fa-github fa-fw"></i></a>
+                            </div>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div> <!-- end col sm 3 -->
+
+    </div> <!-- end row -->
+   
+
+    <div class="space-200"></div> 
+              
+    
+    </div> <!-- end container -->
+</section>
+
+<section id="cal">
+    <div class="container">
+        <div class="row">
+            <div id="calendar"></div>
+        </div>
+    </div>
+</section>
+
+
+    <div class="space"></div>
+<script>
+    $(window).scroll(function() {
+        $('.headline').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+300) {
+                $(this).addClass("fadeIn");
+            }
+        });
+    });
+</script>
+<script>
+    $(window).scroll(function() {
+        $('.card-container').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+300) {
+                $(this).addClass("hatch");
+            }
+        });
+    });
+</script>
+<script>
+    $('.logo').click(function() {
+        $(this).addClass("tossing");
+    });
+</script>
+</body>
+
+    <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+
+    <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/gsdk-checkbox.js"></script>
+    <script src="assets/js/gsdk-radio.js"></script>
+    <script src="assets/js/gsdk-switch.js"></script>
+    <script src="assets/js/get-shit-done.js"></script>
+    
+    <script src="assets/js/custom.js"></script>
+
+</html>
