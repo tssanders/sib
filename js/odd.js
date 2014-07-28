@@ -6332,8 +6332,9 @@ function d3_rebind(target, source, method) {
         if ( ( m = text.match( /^<(?:((https?|ftp|mailto):[^>]+)|(.*?@.*?\.[a-zA-Z]+))>/ ) ) !== null ) {
           if ( m[3] )
             return [ m[0].length, [ "link", { href: "mailto:" + m[3] }, m[3] ] ];
-          else if ( m[2] === "mailto" )
-            return [ m[0].length, [ "link", { href: m[1] }, m[1].substr("mailto:".length ) ] ];
+          else if ( m[2] === "target" )
+            alert("heard");
+            //return [ m[0].length, [ "link", { href: m[1] }, m[1].substr("mailto:".length ) ] ];
           else
             return [ m[0].length, [ "link", { href: m[1] }, m[1] ] ];
         }
